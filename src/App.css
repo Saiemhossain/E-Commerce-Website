@@ -433,6 +433,9 @@ span{
 .about-sec h2{
   margin-bottom: 20px;
 }
+.product-info{
+  grid-template-columns: repeat(2,1fr);
+}
 
 }
 @media (max-width:720px){
