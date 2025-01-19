@@ -3,6 +3,9 @@ export const handleNavToggle = () => {
   const menuOpen = document.querySelector('.open');
   const menuClose = document.querySelector('.close');
 
+    menuOpen.style.display = 'block'; 
+  menuClose.style.display = 'none'; 
+
   menuOpen.addEventListener('click', () => {
     mobileMenu.style.left = '0';
     menuOpen.style.display = 'none';
